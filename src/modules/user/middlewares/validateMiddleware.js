@@ -1,4 +1,4 @@
-const joi = require('@hapi/joi');
+const joi = require('joi');
 const { pick } = require('../../../utils');
 const { BadRequestError } = require('../../../utils/errors');
 

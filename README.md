@@ -31,7 +31,7 @@ Quickly start your project with all the essential features required to build a R
 - Linting with [eslint](http://eslint.org) + Airbnb linting rules
 - Logging using [winston](https://github.com/winstonjs/winston) and [morgan](https://github.com/expressjs/morgan)
 - Pagination plugin for mongoose
-- Request data validation using [Joi](https://github.com/hapijs/joi)
+- Request data validation using [Joi](https://github.com/sideway/joi)
 - Roles and permissions
 - Sanitize request data against xss and query injection
 - Set security HTTP headers using [helmet](https://helmetjs.github.io)
@@ -237,11 +237,3 @@ Pankaj Sanam - [@pankajsanam](https://twitter.com/pankajsanam)
 ## License
 
 [MIT License](LICENSE)
-
-## Thanks
-
-<p style="text-align: center;">
-  <a href="https://www.jetbrains.com/?from=mintreact">
-    <img src="public/images/jetbrains.png" alt="Jetbrains" />
-  </a>
-</p>

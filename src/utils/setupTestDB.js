@@ -4,7 +4,7 @@ const config = require('../config');
 const setupTestDB = () => {
   // eslint-disable-next-line jest/no-hooks,jest/require-top-level-describe
   beforeAll(async () => {
-    await mongoose.connect(config.mongoose.url, config.mongoose.options);
+    await mongoose.connect(config.mongoose.url);
   });
 
   // eslint-disable-next-line jest/no-hooks,jest/require-top-level-describe

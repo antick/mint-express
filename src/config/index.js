@@ -1,6 +1,6 @@
 const env = require('dotenv');
 const path = require('path');
-const joi = require('@hapi/joi');
+const joi = require('joi');
 
 env.config({
   path: path.join(__dirname, '../../.env')
@@ -37,12 +37,7 @@ module.exports = {
   webUrl: configValue.WEB_URL,
   port: configValue.PORT,
   mongoose: {
-    url: configValue.MONGODB_URL + (configValue.NODE_ENV === 'test' ? '_test' : ''),
-    options: {
-      useCreateIndex: true,
-      useNewUrlParser: true,
-      useUnifiedTopology: true
-    }
+    url: configValue.MONGODB_URL + (configValue.NODE_ENV === 'test' ? '_test' : '')
   },
   jwt: {
     secret: configValue.JWT_SECRET,
